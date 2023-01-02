@@ -1,7 +1,11 @@
+import {Logger} from "tslog";
+
+const log = new Logger();
 let active = false;
 
 function makeOrange(color: string): void {
     document.body.style.backgroundColor = color;
+    log.debug("Color", color);
 }
 
 chrome.action.onClicked.addListener((tab) => {

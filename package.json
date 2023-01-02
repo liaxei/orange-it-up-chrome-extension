@@ -9,7 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "tslog": "^4.7.1"
+  },
   "devDependencies": {
     "@types/chrome": "0.0.177",
     "copy-webpack-plugin": "^10.2.1",
